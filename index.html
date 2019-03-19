@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+ 
+
+ 
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Mario RPG</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Choose player 1:</span>
+    </nav>      
+   <div class="container">
+        <div class="row main-characters">
+            <div class="col main-character-left">
+                <div id="player1-Mario">
+                    <div class="card" style="width: 12rem; height: 12rem;">                     
+                        <img id="Mario-pic" src="./assets/images/mario.png" class="card-img-top mario" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mario</h5>
+                            <p class="card-text">Health Points: 350</p>
+                        </div>    
+                    </div>        
+                </div>      
+            </div>
+            <div class="col main-character-middle1">
+                <div id="player1-Peach">
+                    <div class="card" style="width: 12rem; height: 12rem;">
+                        <img src="./assets/images/princess-peach.png" class="card-img-top peach" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Princess Peach</h5>
+                            <p class="card-text">Health Points: 375</p>
+                        </div>
+                    </div> 
+                </div>       
+            </div>
+            <div class="col main-character-middle2">
+                <div id="player1-Goomba">
+                    <div class="card" style="width: 12rem; height: 12rem;">
+                        <img src="./assets/images/goomba.png" class="card-img-top goomba" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Goomba</h5>
+                            <p class="card-text">Health Points: 290</p>
+                        </div>
+                    </div> 
+                </div>       
+            </div>    
+            <div class="col main-character-right">    
+                <div id="player1-Bowser">
+                    <div class="card" style="width: 12rem; height: 12rem;">
+                        <img src="./assets/images/bowser.png" class="card-img-top bowser" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bowser</h5>
+                            <p class="card-text">Health Points: 295</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>    
+        </div>
+    
+
+
+        <nav class="navbar navbar-light" style="background-color: #d6ecff;">
+                <span class="navbar-brand mb-0 h1">Choose player 2:</span>
+        </nav> 
+
+
+
+        <div class="row player2-characters">
+            <div class="col player2-character-left">
+                <div id="player2-Mario">
+                    <div class="card" style="width: 12rem; height: 12rem;">
+                        <img src="./assets/images/mario.png" class="card-img-top mario" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mario</h5>
+                            <p class="card-text">Health Points: 350</p>
+                        </div>
+                    </div> 
+                </div>       
+            </div>
+            <div class="col player2-character-middle1">
+                <div id="player2-Peach">
+                    <div class="card" style="width: 12rem; height: 12rem;">
+                        <img src="./assets/images/princess-peach.png" class="card-img-top peach" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Princess Peach</h5>
+                            <p class="card-text">Health Points: 375</p>
+                        </div>
+                    </div> 
+                </div>       
+            </div>
+            <div class="col player2-character-middle2">
+                <div id="player2-Goomba">
+                    <div class="card" style="width: 12rem; height: 12rem;">
+                        <img src="./assets/images/goomba.png" class="card-img-top goomba" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Goomba</h5>
+                            <p class="card-text">Health Points: 290</p>
+                        </div>
+                    </div> 
+                </div>       
+            </div>    
+            <div class="col player2-character-right">    
+                <div id="player2-Bowser">
+                    <div class="card" style="width: 12rem; height: 12rem;">
+                        <img src="./assets/images/bowser.png" class="card-img-top bowser" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bowser</h5>
+                            <p class="card-text">Health Points: 295</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>    
+        </div>
+        
+        <nav class="navbar navbar-light" style="background-color: #e7b030">
+            <span class="navbar-brand mb-0 h1">Battlefield!</span>
+        </nav>
+
+        <div class="row battle-characters">
+            <div class="col player2-character-left">
+                <div id="battleMario">
+                    <div class="card" style="width: 12rem; height: 13rem;">
+                        <img src="./assets/images/mario-battle.png" class="card-img-top mario-battle" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mario</h5>
+                            <p class="card-text">Health Points: 350</p>
+                        </div>
+                    </div> 
+                </div>       
+            </div>
+            <div class="col battle-character-middle1">
+                <div id="battlePeach">
+                    <div class="card" style="width: 12rem; height: 13rem;">
+                        <img src="./assets/images/peach-battle.jpg" class="card-img-top peach-battle" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Princess Peach</h5>
+                            <p class="card-text">Health Points: 375</p>
+                        </div>
+                    </div> 
+                </div>       
+            </div>
+            <div class="col battle-character-middle2">
+                <div id="battleGoomba">
+                    <div class="card" style="width: 12rem; height: 13rem;">
+                        <img src="./assets/images/goomba-battle.png" class="card-img-top goomba-battle" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Goomba</h5>
+                            <p class="card-text">Health Points: 290</p>
+                        </div>
+                    </div> 
+                </div>       
+            </div>    
+            <div class="col battle-character-right">    
+                <div id="battleBowser">
+                    <div class="card" style="width: 12rem; height: 13rem;">
+                        <img src="./assets/images/bowser-battle.png" class="card-img-top bowser-battle" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bowser</h5>
+                            <p class="card-text">Health Points: 295</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>    
+        </div>
+
+        <div class="row system-things">
+            <div class="col" id="player1-placeholder"></div>
+                
+            <div class="col-6 info">
+                <button type="button" id="attackBtn" class="btn-lg btn-danger" value="true">Attack!</button> 
+                            
+                <button type="button" id="reset" class="restartBtn btn-lg btn-warning" onClick="document.location.reload(true)">New Game</button>
+                
+            </div>
+            <div class="col" id="player2-placeholder"></div>
+            
+        </div>
+
+    </div>
+
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <span class="navbar-brand" id="infoOne"></span><span class="navbar-brand" id="instructBox"></span><span class="navbar-brand" id="infoTwo"></span>
+    </nav>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

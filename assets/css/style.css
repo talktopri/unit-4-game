@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box
+}
+
+html {
+    display: block;
+    margin: 0 auto;
+    overflow: scroll;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    
+    background-image: url('../images/background3-large.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+  
+}
+
+#Mario-pic {
+    height: 5rem;
+    width: 4rem;
+}
+
+.mb-0 {
+    margin: auto;
+    width: 100%;
+    text-align: center
+}
+
+.bowser {
+    height: 5rem;
+    width: 8rem;
+    align-content: center;
+    margin: .5rem auto;
+}
+
+.goomba, .mario, .peach {
+    height: 5rem;
+    width: 4rem;
+    align-content: center;
+    margin: .5rem auto;
+}
+
+
+button {
+    text-align: center;
+    margin: auto;
+}
+
+.battlefield {
+    display: inline;
+}
+
+.mario-battle {
+    height: 7rem;
+    width: 7rem;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.peach-battle {
+    height: 7rem;
+    width: 7rem;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.goomba-battle {
+    height: 7rem;
+    width: 7rem;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.bowser-battle {
+    height: 7rem;
+    width: 7rem;
+    align-content: center;
+    margin: 0 auto;
+}
+
+h5, p{
+    text-align: center;
+}
+
+#battleMario {
+    position: absolute;
+}
+
+.main-characters {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.player2-characters {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.battle-characters {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+#attackBtn {
+    position: fixed;
+    left: 775px;
+    bottom: 100px;
+}
+
+#reset {
+    position: fixed;
+    left: 775px;
+    bottom: 100px;
+}
+
+
+
