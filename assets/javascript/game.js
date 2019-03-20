@@ -8,7 +8,7 @@ var character = [{
     counterAttack: 15,
 },
 {
-    name: "Peach",
+    name: "Princess Peach",
     healthPoints: 375,
     attackPoints: 15,
     counterAttack: 10,
@@ -162,8 +162,8 @@ $("#attackBtn").click(function() { //when the attack button is clicked...
     player2Health = (player2Health - player1Attack);
     player1Health = (player1Health - player2CounterAttack);
         $("#instructBox").text("You've caused " + player1Attack + " damage. " + "Player 2 counter-attacked " + player2CounterAttack + " damage!" );
-        $("#infoOne").text ("Name: " + player1Name + " Health: " + player1Health);
-        $("#infoTwo").text ("Name: " + player2Name + " Health: " + player2Health);
+        $("#infoOne").text (player1Name + " Health: " + player1Health);
+        $("#infoTwo").text (player2Name + " Health: " + player2Health);
             
         if (player1Health > 0) {player1Attack = player1Attack + 10} 
         
