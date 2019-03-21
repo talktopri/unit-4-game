@@ -161,7 +161,7 @@ $("#attackBtn").click(function() { //when the attack button is clicked...
 
     player2Health = (player2Health - player1Attack);
     player1Health = (player1Health - player2CounterAttack);
-        $("#instructBox").text("You've caused " + player1Attack + " damage. " + "Player 2 counter-attacked " + player2CounterAttack + " damage!" );
+        $("#instructBox").text("You have caused a damage of " + player1Attack + " points. " + "Player 2 counter-attacked and caused a damage of" + player2CounterAttack + " points!" );
         $("#infoOne").text (player1Name + " Health: " + player1Health);
         $("#infoTwo").text (player2Name + " Health: " + player2Health);
             
@@ -188,7 +188,7 @@ $("#attackBtn").click(function() { //when the attack button is clicked...
                     }
         
         if (player1Health <= 0 && player2Health <= 0) {
-                $("#instructBox").text("You've Both Fainted! Its a tie!")
+                $("#instructBox").text("What are the odds?! You both lost all your health points! It's a tie!")
                 $("#attackBtn").hide();
                     }
         // If All Enemies are Defeated             
